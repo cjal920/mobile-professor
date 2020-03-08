@@ -251,6 +251,21 @@ section.services {
   color: #000000;
 }
 
+.service-box  {
+  width: 250px;
+  height: 400px;
+  margin: 50px;
+  border: solid 2px;
+}
+
+.service-box:hover  {
+  width: 300px;
+  height: 450px;
+}
+
+
+
+
 /* testimonials */
 
 section.testimonials {
