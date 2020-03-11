@@ -46,6 +46,7 @@ h3 {
   /* letter-spacing: 5px; */
   text-transform: lowercase;
   font-weight: bold;
+  padding-bottom: 40px;
 }
 
 h4
@@ -245,10 +246,10 @@ section.about {
 section.services {
   position: relative;
   width: 100%;
-  padding-top: 75px;
+  padding-top: 40px;
   padding-bottom: 320px;
   background: #efebff;
-  color: #000000;
+  color: #000;
 }
 
 .service-box-one,
@@ -258,13 +259,15 @@ section.services {
 {
   width: 250px;
   height: 400px;
-  margin: 50px;
+  margin: auto;
+  padding-top: 50%;
   background: #ffffff;
   /* border: solid 0.5px #888888; */
   /* -webkit-transform: scale(1);
 	transform: scale(1); */
 	-webkit-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  text-align: center;
 }
 
 .service-box-one:hover,
