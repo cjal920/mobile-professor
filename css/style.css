@@ -44,17 +44,37 @@ h2
 h3 {
   text-align: center;
   /* letter-spacing: 5px; */
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 40px;
 }
 
 h4
 {
-  text-align: center;
+  /* text-align: center; */
   /* letter-spacing: 5px; */
   text-transform: uppercase;
-  font-weight: 100;
+  /* font-weight: 100; */
+}
+
+h5
+{
+  /* text-align: center; */
+  /* letter-spacing: 5px; */
+  text-transform: uppercase;
+  font-weight: bold;
+  /* font-weight: 100; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h6
+{
+  /* text-align: center; */
+  /* letter-spacing: 5px; */
+  font-size: 12px;
+  text-transform: uppercase;
+  /* font-weight: 100; */
 }
 
 button  {
@@ -260,7 +280,8 @@ section.services {
   width: 250px;
   height: 400px;
   margin: auto;
-  padding-top: 50%;
+  margin-bottom: 20px;
+  padding-top: 10%;
   background: #ffffff;
   /* border: solid 0.5px #888888; */
   /* -webkit-transform: scale(1);
@@ -395,10 +416,15 @@ section.tutoring {
 section.academic-assistance {
   position: relative;
   width: 100%;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 200px;
-  background: #cecece;
+  background: #e4e4e4;
   color: #000000;
+}
+
+.subsection {
+  padding: 30px;
+  background: #fff;
 }
 
 
