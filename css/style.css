@@ -284,6 +284,8 @@ section.services {
 
 
 
+
+
 /* testimonials */
 
 section.testimonials {
@@ -346,6 +348,58 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   text-decoration: none;
 }
 
+/* **************** */
+/* EDITING-REVISING */
+/* **************** */
+
+section.editing-revising {
+  position: relative;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: #cecece;
+  color: #000000;
+}
+
+/* **************** */
+/* PERSONAL-STATEMENTS */
+/* **************** */
+
+section.personal-statements {
+  position: relative;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: #cecece;
+  color: #000000;
+}
+
+
+/* **************** */
+/* TUTORING */
+/* **************** */
+
+section.tutoring {
+  position: relative;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: #cecece;
+  color: #000000;
+}
+
+/* **************** */
+/* ACADEMIC-ASSISTANCE */
+/* **************** */
+
+section.academic-assistance {
+  position: relative;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: #cecece;
+  color: #000000;
+}
 
 
 
