@@ -116,7 +116,7 @@ button:hover  {
 .navbar-toggler,
 .dropdown-toggle,
 .material-icons {
-  color: #fff;
+  color: #c5c5c5;
 }
 
 #mainNav {
@@ -144,7 +144,7 @@ button:hover  {
   font-size: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
+  color: #c5c5c5;
 } 
 
 .navbar-brand {
@@ -230,7 +230,7 @@ section.home {
   width: 100%;
   padding-top: 200px;
   padding-bottom: 320px;
-  background: #dcd3ff;
+  background: #ffffff;
   color: #000000;
 }
 
@@ -418,7 +418,7 @@ section.academic-assistance {
   width: 100%;
   padding-top: 100px;
   padding-bottom: 200px;
-  background: #e4e4e4;
+  background: #f5f5f5;
   color: #000000;
 }
 
