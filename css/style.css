@@ -236,18 +236,30 @@ section.home {
 
 .logo-box {
   margin: auto;
-  width: 300px;
-  height: 120px;
+  width: 500px;
+  height: 250px;
   color: #ff90f9;
   background: #ffffff;
-  border: 5px solid #ff90f9;
+  border: 3px solid #ff90f9;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.logo-box:hover {
+  margin-top: -75px;
+  width: 250px;
+  height: 500px;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-radius: 5%;
 }
 
 .logo {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 90px;
   font-family: 'Josefin Sans', sans-serif;
 }
+
 
 
 /* ABOUT */
@@ -281,7 +293,7 @@ section.services {
   height: 400px;
   margin: auto;
   margin-bottom: 20px;
-  padding-top: 10%;
+  /* padding-top: 50%; */
   background: #ffffff;
   /* border: solid 0.5px #888888; */
   /* -webkit-transform: scale(1);
@@ -289,6 +301,10 @@ section.services {
 	-webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   text-align: center;
+  padding-top: 25%;
+  /* position: absolute;            */
+  /* top: 50%;                     */
+  /* transform: translate(0, -50%)     */
 }
 
 .service-box-one:hover,
@@ -300,7 +316,7 @@ section.services {
   border: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
