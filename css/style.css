@@ -238,9 +238,9 @@ section.home {
   margin: auto;
   width: 500px;
   height: 250px;
-  color: #ff90f9;
-  background: #ffffff;
-  border: 3px solid #ff90f9;
+  /* color: #ff90f9;
+  background: #ffffff; */
+  /* border: 3px solid #ff90f9; */
   -webkit-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
 }
@@ -249,6 +249,7 @@ section.home {
   margin-top: -75px;
   width: 250px;
   height: 500px;
+  border: 3px solid #ff90f9;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   border-radius: 5%;
@@ -256,6 +257,7 @@ section.home {
 
 .logo {
   text-align: center;
+  color: #ff90f9;
   margin-top: 90px;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -272,6 +274,14 @@ section.about {
   background: #fff;
   color: #000000;
 }
+
+/* services-main */
+
+#services-main  {
+  height: 60px;
+  background: #000;
+}
+
 
 /* services */
 
